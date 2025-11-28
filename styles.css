@@ -13,8 +13,24 @@ body{
 }
 
 .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: rgb(255, 255, 255);
-    width: 400px;
-    box-shadow: 1x 1x 10px rgba(0, 0, 0, 0.5);
+    width: 500px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
     height: 350px;
+    flex-direction: column;
+}
+
+.head{
+    
+}
+
+.boxes{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+
 }
