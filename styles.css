@@ -8,6 +8,10 @@
 padding-top: 20px;
 width: 250px;
 }
+a{
+    text-decoration: none;
+    margin-bottom: 25px;
+}
 label{
     margin-top: 5px;
 }
@@ -20,6 +24,9 @@ input{
     padding: 5px;
     border: 1px solid rgb(156, 156, 156);
     margin-bottom: 10px;
+}
+button:hover{
+    cursor: pointer;
 }
 button{
     width: 100%;
@@ -49,7 +56,7 @@ body{
     background: rgb(255, 255, 255);
     width: 500px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-    height: 350px;
+    /* height: 350px; */
     flex-direction: column;
 }
 
@@ -59,6 +66,7 @@ body{
 
 .one{
     font-size: 30px;
+    margin-bottom: 5px;
 }
 .two{
     font-size: 15px;
