@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 .formm  {
 padding-top: 20px;
@@ -11,17 +12,23 @@ label{
     margin-top: 5px;
 }
 
+
+
 input{
     margin-top: 5px;
+    border-radius: 6px;
     padding: 5px;
+    border: 1px solid rgb(156, 156, 156);
     margin-bottom: 10px;
 }
 button{
     width: 100%;
     padding: 5px;
-    background-color: blue;
+    background-color: rgb(29, 29, 141);
+    font-size: 15px;
     color: white;
     margin-bottom: 5px;
+    border-radius: 5px;
 }
 .forget{
     color: blue;
