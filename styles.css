@@ -12,7 +12,19 @@ label{
 }
 
 input{
+    margin-top: 5px;
+    padding: 5px;
     margin-bottom: 10px;
+}
+button{
+    width: 100%;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    margin-bottom: 5px;
+}
+.forget{
+    color: blue;
 }
 body{
     min-height: 100vh;
